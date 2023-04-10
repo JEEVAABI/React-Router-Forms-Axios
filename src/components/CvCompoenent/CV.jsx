@@ -4,7 +4,7 @@ export class CV extends Component {
   render() {
     return (
       <React.Fragment>
-      {/* <header>
+      <header>
 		    <div>
 			    <h1>Jeeva Abishake</h1>
 			    <h2>Full Stack Developer</h2>
@@ -13,7 +13,7 @@ export class CV extends Component {
 		       <img src="./src/components/CvCompoenent/img/profile.jpg" alt="Profile Picture"/>
            </div>
 	
-	    </header> */}
+	    </header>
 	    <main>
 		    <section>
 			    <h3>Contact</h3>

@@ -1,8 +1,8 @@
 import {BrowserRouter as Router,Link,Routes,Route } from "react-router-dom";
 import './App.css';
 import CV from "./components/CvCompoenent/CV";
-import Calcula from './components/CalculatorComponent/Calcula';
-import Getcomponent from './components/GetComponent/Getcomponent';
+import Calcula from "./components/CalculatorComponents/calcula";
+import Getcomponent from "./components/GetComponents/Getcomponent";
 
 function App() {
   return (

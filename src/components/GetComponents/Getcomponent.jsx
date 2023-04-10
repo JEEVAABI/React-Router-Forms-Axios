@@ -32,11 +32,12 @@ export class Getcomponent extends Component {
               {characters.length
                 ? characters.map((character, index) => (
                     <div key={index} className="box">
-                      {/* <img src={character.image} alt={character.name} className="character-image" /> */}
+                      <img src={character.image} alt={character.name} className="character-image" />
                       <div className="character-details">
                         <div className="character-name">{character.name}</div>
                         <div className="character-status">{character.status}</div>
                         <div className="character-species">{character.species}</div>
+
                       </div>
                     </div>
                   ))

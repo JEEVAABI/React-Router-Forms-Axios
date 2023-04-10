@@ -9,9 +9,9 @@ export class CV extends Component {
 			    <h1>Jeeva Abishake</h1>
 			    <h2>Full Stack Developer</h2>
           </div>
-          <div>
+          {/* <div>
 		       <img src="./src/components/CvCompoenent/img/profile.jpg" alt="Profile Picture"/>
-           </div>
+           </div> */}
 	
 	    </header>
 	    <main>

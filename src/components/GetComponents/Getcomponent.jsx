@@ -14,7 +14,7 @@ export class Getcomponent extends Component {
         axios
           .get('https://rickandmortyapi.com/api/character')
           .then(response => {
-            // console.log(response);
+            console.log(response);
             this.setState({ characters: response.data.results });
           })
           .catch(error => {

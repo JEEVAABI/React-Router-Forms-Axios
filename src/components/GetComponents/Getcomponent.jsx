@@ -52,3 +52,4 @@ export class Getcomponent extends Component {
 
 
 export default Getcomponent
+
